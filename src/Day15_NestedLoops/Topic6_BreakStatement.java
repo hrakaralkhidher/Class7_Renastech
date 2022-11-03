@@ -28,5 +28,6 @@ public class Topic6_BreakStatement {
                 System.out.println("\t From Inner loop i value: "+i+ " j value: "+j);
             }
         }
+        // the labels we use on very top and with the continue is we use them only with continue and breaks;
     }
 }
