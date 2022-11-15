@@ -32,5 +32,6 @@ public class Topic5_FerreroRocherEX {
         Double wrapped_param1 = param1;
         int a = wrapped_param1.intValue();
         return a;
+
     }
 }
