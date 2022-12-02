@@ -5,18 +5,27 @@ public class Topic4_SwitchStatementContinue {
         // break is where the code stop executing the code  inside  the switch statement
         int day = 1; // this is a example without the break; cuz there are cases when we cant use break;
         int hours = 12;
+        int Studying = 12;
 
         switch (day){
             case 1:
                 switch(hours){ // nested switch statement
                     case 12:
-                        System.out.println(" this is day 1 monday hours is 12");
+                        System.out.println(" this is day 1 monday its 12 hours");
                         break;
                     default:
                         System.out.println("Invalid hours");
                 }
                 System.out.println(" the 1st day of the week is Monday");
             case 2:
+                switch(Studying){
+                    case 12:
+                        System.out.println("Wake Up Early and Study ");
+                    case 2:
+                        System.out.println("At 12 take a break");
+                    case 3:
+                        System.out.println("After your break is over get back to studying");
+                }
                 System.out.println(" the 2nd day of the week is Tuesday");
             case 3:
                 System.out.println(" the 3rd day of the week id Wednesday");
